@@ -1,0 +1,80 @@
+@import url("./utility.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    padding: 1.5rem 2rem 0 2rem;
+}
+
+
+:root {
+    /* fonts */
+    --primary-font: 'Nunito', sans-serif;
+
+    /* colors */
+    --primary-color: #e54065;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --bg-color: #f4f5f9;
+    --border-color: #cfd2dc;
+    --text-color: #636363;
+    --btn-bg: #e1e4ea;
+    --card-bg: #ffffff;
+    --read-bg: #f2f2f2;
+
+    /* border radius */
+    --border-radius-sm: 7px;
+    --border-radius-lg: 2rem;
+}
+
+
+
+.container-wr {
+    gap: 1.5rem;
+}
+
+.top-section {
+    color: var(--color-black);
+    gap: 0.25rem;
+}
+
+.top-section>h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 0.25rem;
+}
+
+.action-btn {
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 0.25rem 0.75rem;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-lg);
+    outline: none;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    transform: scale(1.05);
+}
+
+.active-btn {
+    background-color: var(--btn-bg);
+    border-color: var(--border-color);
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    gap: 1.5rem;
+}

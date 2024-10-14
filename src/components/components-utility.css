@@ -1,0 +1,22 @@
+.avatar {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    font-size: 1.5rem;
+    font-weight: bold;
+    max-height: 3rem;
+    min-width: 3rem;
+    border-radius: 50%;
+}
+
+.email-container {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    gap: 1rem;
+}
+
+.email-favorite {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-left: 2rem;
+}
